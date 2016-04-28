@@ -1,5 +1,5 @@
 FROM debian:jessie
-ENV CONCOURSE_VERSION 0.75.0
+ENV CONCOURSE_VERSION 1.1.0
 MAINTAINER Vy-Shane Xie
 
 RUN apt-get -qq update && \
