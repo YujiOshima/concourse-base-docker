@@ -1,6 +1,6 @@
 FROM debian:jessie
-ENV CONCOURSE_VERSION 1.2.0
-MAINTAINER Vy-Shane Xie
+ENV CONCOURSE_VERSION 1.3.1
+MAINTAINER Yuji Oshima
 
 RUN apt-get -qq update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install curl && \
